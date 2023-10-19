@@ -1,0 +1,13 @@
+
+.fg-nav-link{
+    color: aliceblue;
+    transition: all 0.5s;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.fg-nav-link:hover{
+    color:black;
+    background-color: antiquewhite;
+}
+

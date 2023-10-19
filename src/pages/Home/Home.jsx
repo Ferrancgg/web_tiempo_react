@@ -5,6 +5,7 @@ import CentralContainer from '../../components/CentralContainer/CentralContainer
 import "./Home.css"
 
 
+
 const Home = () => {
   const [data, setData] = useState(null);
   const { lat, lon, isLoading } = useGeolocation();
@@ -36,7 +37,7 @@ const Home = () => {
 
   return (
     <div>
-      {isLoading && <h2>Cargando...</h2>}
+      {isLoading && <h2>cargado los datos del tiempo....</h2> }
       {data && (
  <div className="fg-home">
  {console.log(data)}
